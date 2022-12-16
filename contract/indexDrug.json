@@ -1,0 +1,12 @@
+{
+    "index": {
+        "fields": [
+            "state",
+            "description",
+            "distributor",
+            "items.[].owner"
+        ]
+    },
+    "name": "indexQuery",
+    "type": "json"
+}

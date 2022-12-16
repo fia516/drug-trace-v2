@@ -1,0 +1,30 @@
+{
+  "name": "drug-trace",
+  "version": "1.0.0",
+  "description": "Drug Trace web app backend application",
+  "scripts": {
+    "lint-fix": "eslint --fix .",
+    "dev": "nodemon --exec babel-node app.js",
+    "build": "babel . -d build",
+    "start": "node build/app.js"
+  },
+  "author": "Danica A.",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "fabric-ca-client": "^2.2.15",
+    "fabric-network": "^2.2.15",
+    "jsonwebtoken": "^8.5.1",
+    "node-couchdb": "^2.0.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
+}

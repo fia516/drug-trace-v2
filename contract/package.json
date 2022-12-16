@@ -1,0 +1,27 @@
+{
+  "name": "drug_contract",
+  "version": "1.0.0",
+  "description": "Drug Trace Contract implemented in JavaScript",
+  "main": "index.js",
+  "engines": {
+    "node": ">=12",
+    "npm": ">=6"
+  },
+  "scripts": {
+    "start": "fabric-chaincode-node start",
+    "lint-fix": "eslint --fix *.js"
+  },
+  "engineStrict": true,
+  "author": "Danica A.",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-contract-api": "^2.2.3",
+    "fabric-shim": "^2.2.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
